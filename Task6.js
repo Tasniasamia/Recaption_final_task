@@ -11,7 +11,7 @@ function randompasswordgenerate() {
       uppercaseChars + lowercaseChars + numberChars + specialChars;
     let password = "";
   
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 13; i++) {
       const randomIndex = Math.floor(Math.random() * allChars.length);
       password += allChars[randomIndex];
     }
